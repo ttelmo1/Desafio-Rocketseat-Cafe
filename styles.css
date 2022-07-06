@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+  }
+
+  body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #131011 16.62%, #260242 85.61%);
+  }
+
+  .cabecalho-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .cabecalho-menu a{
+    padding: 45px 30px;
+  }
+
+  .conteudo{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+  }
+
+footer{
+  text-align: center;
+
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a{
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  text-shadow: -1px -1px 0px #8257E5, -1px 1px 0px #8257E5, 1px 1px 0 #8257E5 ;
+}
+
+button{
+  border-radius: 5%;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #8257E5;
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-family: 'Manrope', sans-serif;
+}
